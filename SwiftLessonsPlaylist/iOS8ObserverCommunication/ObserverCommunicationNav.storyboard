@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First Observer View Controller-->
         <scene sceneID="QJ5-Pf-jcp">
             <objects>
-                <viewController id="Sie-Jb-5kT" sceneMemberID="viewController">
+                <viewController id="Sie-Jb-5kT" customClass="FirstObserverViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bwh-Dd-wK8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +42,9 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Cyy-M7-OfO">
                                 <rect key="frame" x="172" y="507" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchToggled:" destination="Sie-Jb-5kT" eventType="valueChanged" id="PRs-bz-0aw"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rbD-Lk-fEp"/>
@@ -57,15 +60,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EZM-BG-hzT"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="LqX-Nn-QUg" id="0ci-NB-KAw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpq-cB-2eU" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="852.17391304347836" y="121.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Observer View Controller-->
         <scene sceneID="NeK-E8-3rt">
             <objects>
-                <viewController id="fIT-po-xeb" sceneMemberID="viewController">
+                <viewController id="fIT-po-xeb" customClass="SecondObserverViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2zX-dw-jov">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +102,9 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tQi-D7-hlo">
                                 <rect key="frame" x="172" y="507" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchToggled:" destination="fIT-po-xeb" eventType="valueChanged" id="L7y-jC-mRe"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vR2-kV-aQS"/>
@@ -111,15 +120,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PH7-GY-bWH"/>
+                    <connections>
+                        <outlet property="listeningSwitch" destination="tQi-D7-hlo" id="Kfq-xP-207"/>
+                        <outlet property="titleLabel" destination="7bY-vK-anf" id="Mi4-B7-mMd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJD-ng-B1E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1697.1014492753625" y="121.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Third Observer View Controller-->
         <scene sceneID="ef9-sg-Jdx">
             <objects>
-                <viewController id="vs4-4j-hO8" sceneMemberID="viewController">
+                <viewController id="vs4-4j-hO8" customClass="ThirdObserverViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hpi-Up-94G">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,6 +151,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="saveButtonClicked:" destination="vs4-4j-hO8" eventType="touchUpInside" id="KCZ-Ua-GVb"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DPx-nn-QRj">
                                 <rect key="frame" x="20" y="403.66666666666669" width="353" height="34"/>
@@ -156,6 +172,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g19-H0-jC9"/>
+                    <connections>
+                        <outlet property="nameField" destination="DPx-nn-QRj" id="E79-gq-VCW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mY5-DN-Ae2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
