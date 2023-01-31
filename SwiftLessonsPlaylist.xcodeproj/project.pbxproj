@@ -16,6 +16,7 @@
 		9E4AA351298760D400A97619 /* DelegateCommunicationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */; };
 		9E4AA353298760FC00A97619 /* BulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA352298760FC00A97619 /* BulbViewController.swift */; };
 		9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */; };
+		9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */; };
 		9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB42987163800E882A2 /* AppDelegate.swift */; };
 		9EB6AFB72987163800E882A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB62987163800E882A2 /* SceneDelegate.swift */; };
 		9EB6AFB92987163800E882A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB82987163800E882A2 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DelegateCommunicationVC.storyboard; sourceTree = "<group>"; };
 		9E4AA352298760FC00A97619 /* BulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbViewController.swift; sourceTree = "<group>"; };
 		9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbSwitchViewController.swift; sourceTree = "<group>"; };
+		9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewAutoLayoutVC.storyboard; sourceTree = "<group>"; };
 		9EB6AFB12987163800E882A2 /* SwiftLessonsPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessonsPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB6AFB42987163800E882A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB6AFB62987163800E882A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			path = iOS8DelegateCommunication;
 			sourceTree = "<group>";
 		};
+		9E5C709F29889826009AB255 /* iOS9ScrollViewAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */,
+			);
+			path = iOS9ScrollViewAutoLayout;
+			sourceTree = "<group>";
+		};
 		9EB6AFA82987163800E882A2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 				9E29205D29871ECA002FB8E0 /* iOS4IBOutlet */,
 				9EB6AFC82987178F00E882A2 /* iOS7ObserverCommunication */,
 				9E4AA34F2987600A00A97619 /* iOS8DelegateCommunication */,
+				9E5C709F29889826009AB255 /* iOS9ScrollViewAutoLayout */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -194,6 +205,7 @@
 				9EB6AFBE2987163900E882A2 /* Assets.xcassets in Resources */,
 				9E29205F29871F01002FB8E0 /* IBOutletViewController.storyboard in Resources */,
 				9EB6AFCA298719F600E882A2 /* ObserverCommunicationNav.storyboard in Resources */,
+				9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */,
 				9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */,
 				9EB6AFBC2987163800E882A2 /* Main.storyboard in Resources */,
 				9EB6AFCF29871D0700E882A2 /* LoginPageViewController.storyboard in Resources */,
