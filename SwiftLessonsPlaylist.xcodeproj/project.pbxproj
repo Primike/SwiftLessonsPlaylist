@@ -27,6 +27,11 @@
 		9EB6AFC12987163900E882A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6AFBF2987163900E882A2 /* LaunchScreen.storyboard */; };
 		9EB6AFCA298719F600E882A2 /* ObserverCommunicationNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6AFC9298719F600E882A2 /* ObserverCommunicationNav.storyboard */; };
 		9EB6AFCF29871D0700E882A2 /* LoginPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6AFCE29871D0700E882A2 /* LoginPageViewController.storyboard */; };
+		9ECBA362298AC66800D2159A /* CollectionViewVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECBA361298AC66800D2159A /* CollectionViewVC.storyboard */; };
+		9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBA363298AC7AD00D2159A /* CollectionViewViewController.swift */; };
+		9ECBA367298ACF1E00D2159A /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBA366298ACF1E00D2159A /* AssociatedValues.swift */; };
+		9ECBA36A298AD21600D2159A /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBA369298AD21600D2159A /* Subscripts.swift */; };
+		9ECBA36D298ADC7600D2159A /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBA36C298ADC7600D2159A /* Generics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		9EB6AFC22987163900E882A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB6AFC9298719F600E882A2 /* ObserverCommunicationNav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObserverCommunicationNav.storyboard; sourceTree = "<group>"; };
 		9EB6AFCE29871D0700E882A2 /* LoginPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPageViewController.storyboard; sourceTree = "<group>"; };
+		9ECBA361298AC66800D2159A /* CollectionViewVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionViewVC.storyboard; sourceTree = "<group>"; };
+		9ECBA363298AC7AD00D2159A /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		9ECBA366298ACF1E00D2159A /* AssociatedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedValues.swift; sourceTree = "<group>"; };
+		9ECBA369298AD21600D2159A /* Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
+		9ECBA36C298ADC7600D2159A /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,10 @@
 				9E4AA34F2987600A00A97619 /* iOS8DelegateCommunication */,
 				9E5C709F29889826009AB255 /* iOS9ScrollViewAutoLayout */,
 				9E5C70A22988A169009AB255 /* iOS10TableViews */,
+				9ECBA360298AC64200D2159A /* iOS11CollectionViews */,
+				9ECBA365298ACF0900D2159A /* iOS12AssociatedValues */,
+				9ECBA368298AD1FE00D2159A /* iOS13Subscripts */,
+				9ECBA36B298ADC6200D2159A /* iOS14Generics */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -155,6 +169,39 @@
 				9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */,
 			);
 			path = iOS2LoginScreen;
+			sourceTree = "<group>";
+		};
+		9ECBA360298AC64200D2159A /* iOS11CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				9ECBA361298AC66800D2159A /* CollectionViewVC.storyboard */,
+				9ECBA363298AC7AD00D2159A /* CollectionViewViewController.swift */,
+			);
+			path = iOS11CollectionViews;
+			sourceTree = "<group>";
+		};
+		9ECBA365298ACF0900D2159A /* iOS12AssociatedValues */ = {
+			isa = PBXGroup;
+			children = (
+				9ECBA366298ACF1E00D2159A /* AssociatedValues.swift */,
+			);
+			path = iOS12AssociatedValues;
+			sourceTree = "<group>";
+		};
+		9ECBA368298AD1FE00D2159A /* iOS13Subscripts */ = {
+			isa = PBXGroup;
+			children = (
+				9ECBA369298AD21600D2159A /* Subscripts.swift */,
+			);
+			path = iOS13Subscripts;
+			sourceTree = "<group>";
+		};
+		9ECBA36B298ADC6200D2159A /* iOS14Generics */ = {
+			isa = PBXGroup;
+			children = (
+				9ECBA36C298ADC7600D2159A /* Generics.swift */,
+			);
+			path = iOS14Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +266,7 @@
 				9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */,
 				9EB6AFBE2987163900E882A2 /* Assets.xcassets in Resources */,
 				9E29205F29871F01002FB8E0 /* IBOutletVC.storyboard in Resources */,
+				9ECBA362298AC66800D2159A /* CollectionViewVC.storyboard in Resources */,
 				9EB6AFCA298719F600E882A2 /* ObserverCommunicationNav.storyboard in Resources */,
 				9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */,
 				9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */,
@@ -235,12 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECBA36A298AD21600D2159A /* Subscripts.swift in Sources */,
 				9E292064298724A0002FB8E0 /* FirstObserverViewController.swift in Sources */,
 				9EB6AFB92987163800E882A2 /* ViewController.swift in Sources */,
 				9E5C70A62988A294009AB255 /* TableViewsViewController.swift in Sources */,
 				9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */,
 				9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */,
+				9ECBA367298ACF1E00D2159A /* AssociatedValues.swift in Sources */,
 				9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */,
+				9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */,
+				9ECBA36D298ADC7600D2159A /* Generics.swift in Sources */,
 				9E292066298724B1002FB8E0 /* SecondObserverViewController.swift in Sources */,
 				9E292068298724BE002FB8E0 /* ThirdObserverViewController.swift in Sources */,
 				9EB6AFB72987163800E882A2 /* SceneDelegate.swift in Sources */,
