@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E049867298F4B7E00E327EA /* RetainCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */; };
 		9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */; };
 		9E29205F29871F01002FB8E0 /* IBOutletVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E29205E29871F01002FB8E0 /* IBOutletVC.storyboard */; };
 		9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E29206029871F4B002FB8E0 /* IBOutletViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycleViewController.swift; sourceTree = "<group>"; };
 		9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChungusLaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E29205E29871F01002FB8E0 /* IBOutletVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IBOutletVC.storyboard; sourceTree = "<group>"; };
 		9E29206029871F4B002FB8E0 /* IBOutletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBOutletViewController.swift; sourceTree = "<group>"; };
@@ -81,23 +83,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E29205D29871ECA002FB8E0 /* iOS4IBOutlet */ = {
+		9E049865298F4B3800E327EA /* iOS16RetainCycle */ = {
+			isa = PBXGroup;
+			children = (
+				9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */,
+			);
+			path = iOS16RetainCycle;
+			sourceTree = "<group>";
+		};
+		9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */ = {
 			isa = PBXGroup;
 			children = (
 				9E29205E29871F01002FB8E0 /* IBOutletVC.storyboard */,
 				9E29206029871F4B002FB8E0 /* IBOutletViewController.swift */,
 			);
-			path = iOS4IBOutlet;
+			path = iOS04IBOutlet;
 			sourceTree = "<group>";
 		};
-		9E4AA34F2987600A00A97619 /* iOS8DelegateCommunication */ = {
+		9E4AA34F2987600A00A97619 /* iOS08DelegateCommunication */ = {
 			isa = PBXGroup;
 			children = (
 				9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */,
 				9E4AA352298760FC00A97619 /* BulbViewController.swift */,
 				9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */,
 			);
-			path = iOS8DelegateCommunication;
+			path = iOS08DelegateCommunication;
 			sourceTree = "<group>";
 		};
 		9E51F2E5298C838800AB0895 /* iOS15Concurrency */ = {
@@ -109,12 +119,12 @@
 			path = iOS15Concurrency;
 			sourceTree = "<group>";
 		};
-		9E5C709F29889826009AB255 /* iOS9ScrollViewAutoLayout */ = {
+		9E5C709F29889826009AB255 /* iOS09ScrollViewAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */,
 			);
-			path = iOS9ScrollViewAutoLayout;
+			path = iOS09ScrollViewAutoLayout;
 			sourceTree = "<group>";
 		};
 		9E5C70A22988A169009AB255 /* iOS10TableViews */ = {
@@ -145,17 +155,18 @@
 		9EB6AFB32987163800E882A2 /* SwiftLessonsPlaylist */ = {
 			isa = PBXGroup;
 			children = (
-				9EB6AFCB29871C5400E882A2 /* iOS2LoginScreen */,
-				9E29205D29871ECA002FB8E0 /* iOS4IBOutlet */,
-				9EB6AFC82987178F00E882A2 /* iOS7ObserverCommunication */,
-				9E4AA34F2987600A00A97619 /* iOS8DelegateCommunication */,
-				9E5C709F29889826009AB255 /* iOS9ScrollViewAutoLayout */,
+				9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */,
+				9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */,
+				9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */,
+				9E4AA34F2987600A00A97619 /* iOS08DelegateCommunication */,
+				9E5C709F29889826009AB255 /* iOS09ScrollViewAutoLayout */,
 				9E5C70A22988A169009AB255 /* iOS10TableViews */,
 				9ECBA360298AC64200D2159A /* iOS11CollectionViews */,
 				9ECBA365298ACF0900D2159A /* iOS12AssociatedValues */,
 				9ECBA368298AD1FE00D2159A /* iOS13Subscripts */,
 				9ECBA36B298ADC6200D2159A /* iOS14Generics */,
 				9E51F2E5298C838800AB0895 /* iOS15Concurrency */,
+				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -167,7 +178,7 @@
 			path = SwiftLessonsPlaylist;
 			sourceTree = "<group>";
 		};
-		9EB6AFC82987178F00E882A2 /* iOS7ObserverCommunication */ = {
+		9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */ = {
 			isa = PBXGroup;
 			children = (
 				9EB6AFC9298719F600E882A2 /* ObserverCommunicationNav.storyboard */,
@@ -175,16 +186,16 @@
 				9E292065298724B1002FB8E0 /* SecondObserverViewController.swift */,
 				9E292067298724BE002FB8E0 /* ThirdObserverViewController.swift */,
 			);
-			path = iOS7ObserverCommunication;
+			path = iOS07ObserverCommunication;
 			sourceTree = "<group>";
 		};
-		9EB6AFCB29871C5400E882A2 /* iOS2LoginScreen */ = {
+		9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9EB6AFCE29871D0700E882A2 /* LoginPageViewController.storyboard */,
 				9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */,
 			);
-			path = iOS2LoginScreen;
+			path = iOS02LoginScreen;
 			sourceTree = "<group>";
 		};
 		9ECBA360298AC64200D2159A /* iOS11CollectionViews */ = {
@@ -304,6 +315,7 @@
 				9ECBA36A298AD21600D2159A /* Subscripts.swift in Sources */,
 				9E292064298724A0002FB8E0 /* FirstObserverViewController.swift in Sources */,
 				9EB6AFB92987163800E882A2 /* ViewController.swift in Sources */,
+				9E049867298F4B7E00E327EA /* RetainCycleViewController.swift in Sources */,
 				9E5C70A62988A294009AB255 /* TableViewsViewController.swift in Sources */,
 				9E51F2E9298C85DF00AB0895 /* ConcurrencyViewController.swift in Sources */,
 				9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */,
