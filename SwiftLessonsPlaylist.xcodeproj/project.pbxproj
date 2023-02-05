@@ -24,6 +24,8 @@
 		9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */; };
 		9E5C70A62988A294009AB255 /* TableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C70A52988A294009AB255 /* TableViewsViewController.swift */; };
 		9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */; };
+		9E9E84B1299023DD00B677FA /* SemaphoreVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */; };
+		9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */; };
 		9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB42987163800E882A2 /* AppDelegate.swift */; };
 		9EB6AFB72987163800E882A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB62987163800E882A2 /* SceneDelegate.swift */; };
 		9EB6AFB92987163800E882A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB82987163800E882A2 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewsVC.storyboard; sourceTree = "<group>"; };
 		9E5C70A52988A294009AB255 /* TableViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewsViewController.swift; sourceTree = "<group>"; };
 		9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RetainCycleVC.storyboard; sourceTree = "<group>"; };
+		9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SemaphoreVC.storyboard; sourceTree = "<group>"; };
+		9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewController.swift; sourceTree = "<group>"; };
 		9EB6AFB12987163800E882A2 /* SwiftLessonsPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessonsPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB6AFB42987163800E882A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB6AFB62987163800E882A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +143,15 @@
 			path = iOS10TableViews;
 			sourceTree = "<group>";
 		};
+		9E9E84AF299023C300B677FA /* iOS17Semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */,
+				9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */,
+			);
+			path = iOS17Semaphore;
+			sourceTree = "<group>";
+		};
 		9EB6AFA82987163800E882A2 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +183,7 @@
 				9ECBA36B298ADC6200D2159A /* iOS14Generics */,
 				9E51F2E5298C838800AB0895 /* iOS15Concurrency */,
 				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
+				9E9E84AF299023C300B677FA /* iOS17Semaphore */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -295,6 +309,7 @@
 			files = (
 				9E51F2E7298C858800AB0895 /* ConcurrencyVC.storyboard in Resources */,
 				9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */,
+				9E9E84B1299023DD00B677FA /* SemaphoreVC.storyboard in Resources */,
 				9EB6AFC12987163900E882A2 /* LaunchScreen.storyboard in Resources */,
 				9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */,
 				9EB6AFBE2987163900E882A2 /* Assets.xcassets in Resources */,
@@ -325,6 +340,7 @@
 				9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */,
 				9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */,
 				9ECBA367298ACF1E00D2159A /* AssociatedValues.swift in Sources */,
+				9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */,
 				9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */,
 				9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */,
 				9ECBA36D298ADC7600D2159A /* Generics.swift in Sources */,
