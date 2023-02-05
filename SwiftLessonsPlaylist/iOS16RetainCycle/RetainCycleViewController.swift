@@ -23,9 +23,26 @@ class RetainCycleViewController: UIViewController {
         
         peter = nil
         lois = nil
+        
+        navigationController?.pushViewController(SecondViewController(), animated: true)
     }
     
+}
 
+class SecondViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.view.backgroundColor = .cyan
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name("Chungus"), object: nil, queue: .main) { [weak self] _ in
+            self?.view.backgroundColor = .red
+        }
+    }
+    
+    deinit {
+        print("Second VC has been removed from memory")
+    }
 }
 
 class User {

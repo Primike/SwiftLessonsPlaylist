@@ -23,6 +23,7 @@
 		9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */; };
 		9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */; };
 		9E5C70A62988A294009AB255 /* TableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C70A52988A294009AB255 /* TableViewsViewController.swift */; };
+		9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */; };
 		9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB42987163800E882A2 /* AppDelegate.swift */; };
 		9EB6AFB72987163800E882A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB62987163800E882A2 /* SceneDelegate.swift */; };
 		9EB6AFB92987163800E882A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6AFB82987163800E882A2 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewAutoLayoutVC.storyboard; sourceTree = "<group>"; };
 		9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewsVC.storyboard; sourceTree = "<group>"; };
 		9E5C70A52988A294009AB255 /* TableViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewsViewController.swift; sourceTree = "<group>"; };
+		9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RetainCycleVC.storyboard; sourceTree = "<group>"; };
 		9EB6AFB12987163800E882A2 /* SwiftLessonsPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessonsPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB6AFB42987163800E882A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB6AFB62987163800E882A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		9E049865298F4B3800E327EA /* iOS16RetainCycle */ = {
 			isa = PBXGroup;
 			children = (
+				9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */,
 				9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */,
 			);
 			path = iOS16RetainCycle;
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E51F2E7298C858800AB0895 /* ConcurrencyVC.storyboard in Resources */,
+				9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */,
 				9EB6AFC12987163900E882A2 /* LaunchScreen.storyboard in Resources */,
 				9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */,
 				9EB6AFBE2987163900E882A2 /* Assets.xcassets in Resources */,
