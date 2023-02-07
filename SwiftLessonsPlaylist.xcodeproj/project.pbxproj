@@ -23,6 +23,9 @@
 		9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */; };
 		9E5C70A42988A247009AB255 /* TableViewsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */; };
 		9E5C70A62988A294009AB255 /* TableViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C70A52988A294009AB255 /* TableViewsViewController.swift */; };
+		9E80D55029903C2300F306CB /* chungusfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E80D54F29903C2300F306CB /* chungusfile.txt */; };
+		9E80D55229903F0D00F306CB /* ErrorHandlingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E80D55129903F0D00F306CB /* ErrorHandlingVC.storyboard */; };
+		9E80D55429903F1E00F306CB /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80D55329903F1E00F306CB /* ErrorHandlingViewController.swift */; };
 		9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */; };
 		9E9E84B1299023DD00B677FA /* SemaphoreVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */; };
 		9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */; };
@@ -58,6 +61,9 @@
 		9E5C70A029889857009AB255 /* ScrollViewAutoLayoutVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewAutoLayoutVC.storyboard; sourceTree = "<group>"; };
 		9E5C70A32988A247009AB255 /* TableViewsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewsVC.storyboard; sourceTree = "<group>"; };
 		9E5C70A52988A294009AB255 /* TableViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewsViewController.swift; sourceTree = "<group>"; };
+		9E80D54F29903C2300F306CB /* chungusfile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = chungusfile.txt; sourceTree = "<group>"; };
+		9E80D55129903F0D00F306CB /* ErrorHandlingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ErrorHandlingVC.storyboard; sourceTree = "<group>"; };
+		9E80D55329903F1E00F306CB /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
 		9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RetainCycleVC.storyboard; sourceTree = "<group>"; };
 		9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SemaphoreVC.storyboard; sourceTree = "<group>"; };
 		9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +149,16 @@
 			path = iOS10TableViews;
 			sourceTree = "<group>";
 		};
+		9E80D54C29903AAB00F306CB /* iOS18ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				9E80D55129903F0D00F306CB /* ErrorHandlingVC.storyboard */,
+				9E80D55329903F1E00F306CB /* ErrorHandlingViewController.swift */,
+				9E80D54F29903C2300F306CB /* chungusfile.txt */,
+			);
+			path = iOS18ErrorHandling;
+			sourceTree = "<group>";
+		};
 		9E9E84AF299023C300B677FA /* iOS17Semaphore */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +200,7 @@
 				9E51F2E5298C838800AB0895 /* iOS15Concurrency */,
 				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
 				9E9E84AF299023C300B677FA /* iOS17Semaphore */,
+				9E80D54C29903AAB00F306CB /* iOS18ErrorHandling */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -308,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E51F2E7298C858800AB0895 /* ConcurrencyVC.storyboard in Resources */,
+				9E80D55029903C2300F306CB /* chungusfile.txt in Resources */,
 				9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */,
 				9E9E84B1299023DD00B677FA /* SemaphoreVC.storyboard in Resources */,
 				9EB6AFC12987163900E882A2 /* LaunchScreen.storyboard in Resources */,
@@ -315,6 +333,7 @@
 				9EB6AFBE2987163900E882A2 /* Assets.xcassets in Resources */,
 				9E29205F29871F01002FB8E0 /* IBOutletVC.storyboard in Resources */,
 				9ECBA362298AC66800D2159A /* CollectionViewVC.storyboard in Resources */,
+				9E80D55229903F0D00F306CB /* ErrorHandlingVC.storyboard in Resources */,
 				9EB6AFCA298719F600E882A2 /* ObserverCommunicationNav.storyboard in Resources */,
 				9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */,
 				9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */,
@@ -344,6 +363,7 @@
 				9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */,
 				9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */,
 				9ECBA36D298ADC7600D2159A /* Generics.swift in Sources */,
+				9E80D55429903F1E00F306CB /* ErrorHandlingViewController.swift in Sources */,
 				9E292066298724B1002FB8E0 /* SecondObserverViewController.swift in Sources */,
 				9E292068298724BE002FB8E0 /* ThirdObserverViewController.swift in Sources */,
 				9E51F2E4298C836E00AB0895 /* MovieCollectionViewCell.swift in Sources */,

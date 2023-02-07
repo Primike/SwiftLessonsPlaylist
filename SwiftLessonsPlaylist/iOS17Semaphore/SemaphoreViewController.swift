@@ -30,7 +30,7 @@ class SemaphoreViewController: UIViewController {
             semaphore.wait() //0
             print("I am in the second block after wait")
             self.saveMovies()
-            self.movies.remove(at: 0) 
+            self.movies.remove(at: 0)
             semaphore.signal() //1
         }
         
