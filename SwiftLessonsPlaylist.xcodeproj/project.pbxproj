@@ -26,6 +26,9 @@
 		9E80D55029903C2300F306CB /* chungusfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E80D54F29903C2300F306CB /* chungusfile.txt */; };
 		9E80D55229903F0D00F306CB /* ErrorHandlingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E80D55129903F0D00F306CB /* ErrorHandlingVC.storyboard */; };
 		9E80D55429903F1E00F306CB /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80D55329903F1E00F306CB /* ErrorHandlingViewController.swift */; };
+		9E80D5572991DE4900F306CB /* CustomErrorsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E80D5562991DE4900F306CB /* CustomErrorsVC.storyboard */; };
+		9E80D5592991DE6800F306CB /* CustomErrorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80D5582991DE6800F306CB /* CustomErrorsViewController.swift */; };
+		9E80D55B2991DEA400F306CB /* ChungusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80D55A2991DEA400F306CB /* ChungusError.swift */; };
 		9E9E84AE29901A3100B677FA /* RetainCycleVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */; };
 		9E9E84B1299023DD00B677FA /* SemaphoreVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */; };
 		9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */; };
@@ -64,6 +67,9 @@
 		9E80D54F29903C2300F306CB /* chungusfile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = chungusfile.txt; sourceTree = "<group>"; };
 		9E80D55129903F0D00F306CB /* ErrorHandlingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ErrorHandlingVC.storyboard; sourceTree = "<group>"; };
 		9E80D55329903F1E00F306CB /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
+		9E80D5562991DE4900F306CB /* CustomErrorsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomErrorsVC.storyboard; sourceTree = "<group>"; };
+		9E80D5582991DE6800F306CB /* CustomErrorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorsViewController.swift; sourceTree = "<group>"; };
+		9E80D55A2991DEA400F306CB /* ChungusError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChungusError.swift; sourceTree = "<group>"; };
 		9E9E84AD29901A3100B677FA /* RetainCycleVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RetainCycleVC.storyboard; sourceTree = "<group>"; };
 		9E9E84B0299023DD00B677FA /* SemaphoreVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SemaphoreVC.storyboard; sourceTree = "<group>"; };
 		9E9E84B2299023F300B677FA /* SemaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +165,16 @@
 			path = iOS18ErrorHandling;
 			sourceTree = "<group>";
 		};
+		9E80D5552991DDF100F306CB /* iOS19CustomErrors */ = {
+			isa = PBXGroup;
+			children = (
+				9E80D5562991DE4900F306CB /* CustomErrorsVC.storyboard */,
+				9E80D5582991DE6800F306CB /* CustomErrorsViewController.swift */,
+				9E80D55A2991DEA400F306CB /* ChungusError.swift */,
+			);
+			path = iOS19CustomErrors;
+			sourceTree = "<group>";
+		};
 		9E9E84AF299023C300B677FA /* iOS17Semaphore */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +203,7 @@
 		9EB6AFB32987163800E882A2 /* SwiftLessonsPlaylist */ = {
 			isa = PBXGroup;
 			children = (
+				9E80D5552991DDF100F306CB /* iOS19CustomErrors */,
 				9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */,
 				9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */,
 				9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */,
@@ -340,6 +357,7 @@
 				9EB6AFBC2987163800E882A2 /* Main.storyboard in Resources */,
 				9EB6AFCF29871D0700E882A2 /* LoginPageViewController.storyboard in Resources */,
 				9E4AA351298760D400A97619 /* DelegateCommunicationVC.storyboard in Resources */,
+				9E80D5572991DE4900F306CB /* CustomErrorsVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,11 +380,13 @@
 				9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */,
 				9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */,
 				9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */,
+				9E80D5592991DE6800F306CB /* CustomErrorsViewController.swift in Sources */,
 				9ECBA36D298ADC7600D2159A /* Generics.swift in Sources */,
 				9E80D55429903F1E00F306CB /* ErrorHandlingViewController.swift in Sources */,
 				9E292066298724B1002FB8E0 /* SecondObserverViewController.swift in Sources */,
 				9E292068298724BE002FB8E0 /* ThirdObserverViewController.swift in Sources */,
 				9E51F2E4298C836E00AB0895 /* MovieCollectionViewCell.swift in Sources */,
+				9E80D55B2991DEA400F306CB /* ChungusError.swift in Sources */,
 				9EB6AFB72987163800E882A2 /* SceneDelegate.swift in Sources */,
 				9E4AA353298760FC00A97619 /* BulbViewController.swift in Sources */,
 			);
