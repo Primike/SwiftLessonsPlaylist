@@ -14,6 +14,8 @@
 		9E292064298724A0002FB8E0 /* FirstObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E292063298724A0002FB8E0 /* FirstObserverViewController.swift */; };
 		9E292066298724B1002FB8E0 /* SecondObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E292065298724B1002FB8E0 /* SecondObserverViewController.swift */; };
 		9E292068298724BE002FB8E0 /* ThirdObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E292067298724BE002FB8E0 /* ThirdObserverViewController.swift */; };
+		9E45D335299326DD00A27589 /* ClosuresVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E45D334299326DD00A27589 /* ClosuresVC.storyboard */; };
+		9E45D337299326ED00A27589 /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45D336299326ED00A27589 /* ClosuresViewController.swift */; };
 		9E4AA351298760D400A97619 /* DelegateCommunicationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */; };
 		9E4AA353298760FC00A97619 /* BulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA352298760FC00A97619 /* BulbViewController.swift */; };
 		9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */; };
@@ -55,6 +57,8 @@
 		9E292063298724A0002FB8E0 /* FirstObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstObserverViewController.swift; sourceTree = "<group>"; };
 		9E292065298724B1002FB8E0 /* SecondObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondObserverViewController.swift; sourceTree = "<group>"; };
 		9E292067298724BE002FB8E0 /* ThirdObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdObserverViewController.swift; sourceTree = "<group>"; };
+		9E45D334299326DD00A27589 /* ClosuresVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClosuresVC.storyboard; sourceTree = "<group>"; };
+		9E45D336299326ED00A27589 /* ClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
 		9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DelegateCommunicationVC.storyboard; sourceTree = "<group>"; };
 		9E4AA352298760FC00A97619 /* BulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbViewController.swift; sourceTree = "<group>"; };
 		9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbSwitchViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,15 @@
 				9E29206029871F4B002FB8E0 /* IBOutletViewController.swift */,
 			);
 			path = iOS04IBOutlet;
+			sourceTree = "<group>";
+		};
+		9E45D3332993262B00A27589 /* iOS20Closures */ = {
+			isa = PBXGroup;
+			children = (
+				9E45D334299326DD00A27589 /* ClosuresVC.storyboard */,
+				9E45D336299326ED00A27589 /* ClosuresViewController.swift */,
+			);
+			path = iOS20Closures;
 			sourceTree = "<group>";
 		};
 		9E4AA34F2987600A00A97619 /* iOS08DelegateCommunication */ = {
@@ -203,7 +216,7 @@
 		9EB6AFB32987163800E882A2 /* SwiftLessonsPlaylist */ = {
 			isa = PBXGroup;
 			children = (
-				9E80D5552991DDF100F306CB /* iOS19CustomErrors */,
+				9E45D3332993262B00A27589 /* iOS20Closures */,
 				9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */,
 				9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */,
 				9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */,
@@ -218,6 +231,7 @@
 				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
 				9E9E84AF299023C300B677FA /* iOS17Semaphore */,
 				9E80D54C29903AAB00F306CB /* iOS18ErrorHandling */,
+				9E80D5552991DDF100F306CB /* iOS19CustomErrors */,
 				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
 				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
 				9EB6AFB82987163800E882A2 /* ViewController.swift */,
@@ -352,6 +366,7 @@
 				9ECBA362298AC66800D2159A /* CollectionViewVC.storyboard in Resources */,
 				9E80D55229903F0D00F306CB /* ErrorHandlingVC.storyboard in Resources */,
 				9EB6AFCA298719F600E882A2 /* ObserverCommunicationNav.storyboard in Resources */,
+				9E45D335299326DD00A27589 /* ClosuresVC.storyboard in Resources */,
 				9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */,
 				9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */,
 				9EB6AFBC2987163800E882A2 /* Main.storyboard in Resources */,
@@ -378,6 +393,7 @@
 				9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */,
 				9ECBA367298ACF1E00D2159A /* AssociatedValues.swift in Sources */,
 				9E9E84B3299023F300B677FA /* SemaphoreViewController.swift in Sources */,
+				9E45D337299326ED00A27589 /* ClosuresViewController.swift in Sources */,
 				9E29206129871F4B002FB8E0 /* IBOutletViewController.swift in Sources */,
 				9ECBA364298AC7AD00D2159A /* CollectionViewViewController.swift in Sources */,
 				9E80D5592991DE6800F306CB /* CustomErrorsViewController.swift in Sources */,

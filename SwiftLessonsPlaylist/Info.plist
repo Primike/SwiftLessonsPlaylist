@@ -16,7 +16,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>CustomErrorsVC</string>
+					<string>ClosuresVC</string>
 				</dict>
 			</array>
 		</dict>
