@@ -9,14 +9,14 @@ import UIKit
 
 class RetainCycleViewController: UIViewController {
 
-    var peter: User?
-    var lois: User?
+    var peter: RetainCycleUser?
+    var lois: RetainCycleUser?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        peter = User(firstName: "Peter", lastName: "Griffin")
-        lois = User(firstName: "Lois", lastName: "Quagmire")
+        peter = RetainCycleUser(firstName: "Peter", lastName: "Griffin")
+        lois = RetainCycleUser(firstName: "Lois", lastName: "Quagmire")
         
         peter?.spouse = lois //1 Reference (weak)
         lois?.spouse = peter //1
@@ -45,10 +45,10 @@ class SecondViewController: UIViewController {
     }
 }
 
-class User {
+class RetainCycleUser {
     let firstName: String
     let lastName: String
-    weak var spouse: User?
+    weak var spouse: RetainCycleUser?
     
     init(firstName: String, lastName: String) {
         self.firstName = firstName

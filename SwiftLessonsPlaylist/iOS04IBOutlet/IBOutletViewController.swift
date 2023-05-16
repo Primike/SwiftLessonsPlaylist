@@ -21,7 +21,6 @@ class IBOutletViewController: UIViewController {
 
     }
     
-
     @IBAction func submitButtonClicked(_ sender: UIButton) {
         let name = nameField.text ?? ""
         

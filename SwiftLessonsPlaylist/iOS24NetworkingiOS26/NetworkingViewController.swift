@@ -11,11 +11,12 @@ class NetworkingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let params = [
-            "title": "Big Chungus",
-            "body": "This is big chungus"
-        ]
+        
+        createPost()
+    }
+    
+    func createPost() {
+        let newPost = Post(id: 101, title: "Big Chungus", body: "This is big chungus")
         
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
             return
@@ -24,15 +25,18 @@ class NetworkingViewController: UIViewController {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
-        request.httpBody = try? JSONSerialization.data(withJSONObject: params, options: [])
+        request.httpBody = try? JSONEncoder().encode(newPost)
         
         let session = URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
                 print("The error was: \(error.localizedDescription)")
             } else {
-                let jsonRes = try? JSONSerialization.jsonObject(with: data!, options: [])
-                print("Response json is: \(jsonRes)")
+                guard let data = data else {
+                    return
+                }
+                let post = try? JSONDecoder().decode(Post.self, from: data)
             }
+            
             DispatchQueue.main.async { [weak self] in
                 guard let self = self else {
                     return
