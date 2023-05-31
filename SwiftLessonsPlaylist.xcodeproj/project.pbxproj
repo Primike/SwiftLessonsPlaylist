@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0175002A14561200FD473A /* InteractiveAnimatorVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0174FF2A14561200FD473A /* InteractiveAnimatorVC.storyboard */; };
+		9E0175022A14562A00FD473A /* InteractiveAnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0175012A14562A00FD473A /* InteractiveAnimatorViewController.swift */; };
 		9E049867298F4B7E00E327EA /* RetainCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */; };
 		9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */; };
 		9E29205F29871F01002FB8E0 /* IBOutletVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E29205E29871F01002FB8E0 /* IBOutletVC.storyboard */; };
@@ -108,6 +110,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E0174FF2A14561200FD473A /* InteractiveAnimatorVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InteractiveAnimatorVC.storyboard; sourceTree = "<group>"; };
+		9E0175012A14562A00FD473A /* InteractiveAnimatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveAnimatorViewController.swift; sourceTree = "<group>"; };
 		9E049866298F4B7E00E327EA /* RetainCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycleViewController.swift; sourceTree = "<group>"; };
 		9E29205B29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChungusLaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E29205E29871F01002FB8E0 /* IBOutletVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IBOutletVC.storyboard; sourceTree = "<group>"; };
@@ -220,6 +224,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0174FE2A1455E200FD473A /* iOS38InteractiveAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				9E0174FF2A14561200FD473A /* InteractiveAnimatorVC.storyboard */,
+				9E0175012A14562A00FD473A /* InteractiveAnimatorViewController.swift */,
+			);
+			path = iOS38InteractiveAnimator;
+			sourceTree = "<group>";
+		};
 		9E049865298F4B3800E327EA /* iOS16RetainCycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +473,7 @@
 				9ECE55D32A13E80C007769B4 /* iOS34MVVM */,
 				9ECE55E62A140BBB007769B4 /* iOS36Animations */,
 				9ECE55EB2A141126007769B4 /* iOS37AnimatingLayers */,
+				9E0174FE2A1455E200FD473A /* iOS38InteractiveAnimator */,
 			);
 			path = SwiftLessonsPlaylist;
 			sourceTree = "<group>";
@@ -753,6 +767,7 @@
 				9ECE55D52A13E8B2007769B4 /* MVVMVC.storyboard in Resources */,
 				9E4EFAD529C4051A00802647 /* NetworkingVC.storyboard in Resources */,
 				9E29349129C681D6008BE03C /* NoteAppCoreDataVC.storyboard in Resources */,
+				9E0175002A14561200FD473A /* InteractiveAnimatorVC.storyboard in Resources */,
 				9E5C70A129889857009AB255 /* ScrollViewAutoLayoutVC.storyboard in Resources */,
 				9E29205C29871DD5002FB8E0 /* ChungusLaunchScreen.storyboard in Resources */,
 				9EB6AFBC2987163800E882A2 /* Main.storyboard in Resources */,
@@ -823,6 +838,7 @@
 				9E292068298724BE002FB8E0 /* ThirdObserverViewController.swift in Sources */,
 				9E51F2E4298C836E00AB0895 /* MovieCollectionViewCell.swift in Sources */,
 				9ECE55DD2A13E9D0007769B4 /* MVVMLoginViewModel.swift in Sources */,
+				9E0175022A14562A00FD473A /* InteractiveAnimatorViewController.swift in Sources */,
 				9E4EFADC29C409B600802647 /* DownloadTaskViewController.swift in Sources */,
 				9ECE559B2A13BADF007769B4 /* Arithmetic.swift in Sources */,
 				9E80D55B2991DEA400F306CB /* ChungusError.swift in Sources */,
