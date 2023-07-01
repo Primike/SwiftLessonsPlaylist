@@ -7,12 +7,13 @@
 
 import Foundation
 import UIKit
+import Combine
 
 class MVVMLoginViewController: UIViewController {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-    
+//    private var cancellables: Set<AnyCancellable> = []
     private let viewModel = MVVMLoginViewModel()
     
     override func viewDidLoad() {
@@ -29,6 +30,14 @@ class MVVMLoginViewController: UIViewController {
                 self?.goToHomePage()
             }
         }
+        
+//        viewModel.$error.sink { [weak self] error in
+//            if let error = error {
+//                print(error)
+//            } else {
+//                self?.goToHomePage()
+//            }
+//        }.store(in: &cancellables)
     }
     
     @IBAction func loginBtnClicked(_ sender: UIButton) {

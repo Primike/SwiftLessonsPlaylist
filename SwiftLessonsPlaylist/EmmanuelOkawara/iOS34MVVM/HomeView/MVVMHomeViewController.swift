@@ -11,7 +11,7 @@ import UIKit
 class MVVMHomeViewController: UIViewController {
 
     @IBOutlet weak var welcomeLbl: UILabel!
-    
+    //    private var cancellables: Set<AnyCancellable> = []
     private let viewModel = MVVMHomeViewModel()
     
     override func viewDidLoad() {
@@ -25,5 +25,9 @@ class MVVMHomeViewController: UIViewController {
         viewModel.welcomeMessage.bind { [weak self] message in
             self?.welcomeLbl.text = message
         }
+        
+//        viewModel.$welcomeMessage.sink { [weak self] message in
+//            self?.welcomeLbl.text = message
+//        }.store(in: &cancellables)
     }
 }

@@ -30,6 +30,7 @@
 		9E4AA351298760D400A97619 /* DelegateCommunicationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */; };
 		9E4AA353298760FC00A97619 /* BulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA352298760FC00A97619 /* BulbViewController.swift */; };
 		9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */; };
+		9E4B814C2A4F256C004A7DCD /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B814B2A4F256C004A7DCD /* Caching.swift */; };
 		9E4EFAD229C402B200802647 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EFAD129C402B200802647 /* TypeAlias.swift */; };
 		9E4EFAD529C4051A00802647 /* NetworkingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4EFAD429C4051A00802647 /* NetworkingVC.storyboard */; };
 		9E4EFAD729C4055600802647 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EFAD629C4055600802647 /* NetworkingViewController.swift */; };
@@ -133,6 +134,7 @@
 		9E4AA350298760D400A97619 /* DelegateCommunicationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DelegateCommunicationVC.storyboard; sourceTree = "<group>"; };
 		9E4AA352298760FC00A97619 /* BulbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbViewController.swift; sourceTree = "<group>"; };
 		9E4AA3542987610A00A97619 /* BulbSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbSwitchViewController.swift; sourceTree = "<group>"; };
+		9E4B814B2A4F256C004A7DCD /* Caching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caching.swift; sourceTree = "<group>"; };
 		9E4EFAD129C402B200802647 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		9E4EFAD429C4051A00802647 /* NetworkingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetworkingVC.storyboard; sourceTree = "<group>"; };
 		9E4EFAD629C4055600802647 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
@@ -326,6 +328,63 @@
 			path = iOS08DelegateCommunication;
 			sourceTree = "<group>";
 		};
+		9E4B81482A4F247B004A7DCD /* EmmanuelOkawara */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */,
+				9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */,
+				9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */,
+				9E4AA34F2987600A00A97619 /* iOS08DelegateCommunication */,
+				9E5C709F29889826009AB255 /* iOS09ScrollViewAutoLayout */,
+				9E5C70A22988A169009AB255 /* iOS10TableViews */,
+				9ECBA360298AC64200D2159A /* iOS11CollectionViews */,
+				9ECBA365298ACF0900D2159A /* iOS12AssociatedValues */,
+				9ECBA368298AD1FE00D2159A /* iOS13Subscripts */,
+				9ECBA36B298ADC6200D2159A /* iOS14Generics */,
+				9E51F2E5298C838800AB0895 /* iOS15Concurrency */,
+				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
+				9E9E84AF299023C300B677FA /* iOS17Semaphore */,
+				9E80D54C29903AAB00F306CB /* iOS18ErrorHandling */,
+				9E80D5552991DDF100F306CB /* iOS19CustomErrors */,
+				9E45D3332993262B00A27589 /* iOS20Closures */,
+				9E4EFAD029C4028400802647 /* iOS22TypeAlias */,
+				9E4EFAD329C404F200802647 /* iOS24NetworkingiOS26 */,
+				9E4EFAD829C4099100802647 /* iOS25DownloadTask */,
+				9EB3846729C4BD3A0047871C /* iOS27UserDefaults */,
+				9E29348F29C68194008BE03C /* iOS28NoteAppCoreData */,
+				9ECE55992A13BA7A007769B4 /* iOS30UnitTesting */,
+				9ECE55AD2A13C0DC007769B4 /* iOS31UITesting */,
+				9ECE55C82A13DC82007769B4 /* iOS33MVC */,
+				9ECE55D32A13E80C007769B4 /* iOS34MVVM */,
+				9ECE55E62A140BBB007769B4 /* iOS36Animations */,
+				9ECE55EB2A141126007769B4 /* iOS37AnimatingLayers */,
+				9E0174FE2A1455E200FD473A /* iOS38InteractiveAnimator */,
+			);
+			path = EmmanuelOkawara;
+			sourceTree = "<group>";
+		};
+		9E4B81492A4F249D004A7DCD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6AFBD2987163900E882A2 /* Assets.xcassets */,
+				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
+				9EB6AFC22987163900E882A2 /* Info.plist */,
+				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
+				9EB6AFB82987163800E882A2 /* ViewController.swift */,
+				9EB6AFBA2987163800E882A2 /* Main.storyboard */,
+				9EB6AFBF2987163900E882A2 /* LaunchScreen.storyboard */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		9E4B814A2A4F24B1004A7DCD /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B814B2A4F256C004A7DCD /* Caching.swift */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
 		9E4EFAD029C4028400802647 /* iOS22TypeAlias */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,38 +501,9 @@
 		9EB6AFB32987163800E882A2 /* SwiftLessonsPlaylist */ = {
 			isa = PBXGroup;
 			children = (
-				9ECE55982A13BA17007769B4 /* Files */,
-				9EB6AFB42987163800E882A2 /* AppDelegate.swift */,
-				9EB6AFBD2987163900E882A2 /* Assets.xcassets */,
-				9EB6AFC22987163900E882A2 /* Info.plist */,
-				9EB6AFCB29871C5400E882A2 /* iOS02LoginScreen */,
-				9E29205D29871ECA002FB8E0 /* iOS04IBOutlet */,
-				9EB6AFC82987178F00E882A2 /* iOS07ObserverCommunication */,
-				9E4AA34F2987600A00A97619 /* iOS08DelegateCommunication */,
-				9E5C709F29889826009AB255 /* iOS09ScrollViewAutoLayout */,
-				9E5C70A22988A169009AB255 /* iOS10TableViews */,
-				9ECBA360298AC64200D2159A /* iOS11CollectionViews */,
-				9ECBA365298ACF0900D2159A /* iOS12AssociatedValues */,
-				9ECBA368298AD1FE00D2159A /* iOS13Subscripts */,
-				9ECBA36B298ADC6200D2159A /* iOS14Generics */,
-				9E51F2E5298C838800AB0895 /* iOS15Concurrency */,
-				9E049865298F4B3800E327EA /* iOS16RetainCycle */,
-				9E9E84AF299023C300B677FA /* iOS17Semaphore */,
-				9E80D54C29903AAB00F306CB /* iOS18ErrorHandling */,
-				9E80D5552991DDF100F306CB /* iOS19CustomErrors */,
-				9E45D3332993262B00A27589 /* iOS20Closures */,
-				9E4EFAD029C4028400802647 /* iOS22TypeAlias */,
-				9E4EFAD329C404F200802647 /* iOS24NetworkingiOS26 */,
-				9E4EFAD829C4099100802647 /* iOS25DownloadTask */,
-				9EB3846729C4BD3A0047871C /* iOS27UserDefaults */,
-				9E29348F29C68194008BE03C /* iOS28NoteAppCoreData */,
-				9ECE55992A13BA7A007769B4 /* iOS30UnitTesting */,
-				9ECE55AD2A13C0DC007769B4 /* iOS31UITesting */,
-				9ECE55C82A13DC82007769B4 /* iOS33MVC */,
-				9ECE55D32A13E80C007769B4 /* iOS34MVVM */,
-				9ECE55E62A140BBB007769B4 /* iOS36Animations */,
-				9ECE55EB2A141126007769B4 /* iOS37AnimatingLayers */,
-				9E0174FE2A1455E200FD473A /* iOS38InteractiveAnimator */,
+				9E4B81492A4F249D004A7DCD /* Files */,
+				9E4B814A2A4F24B1004A7DCD /* Caching */,
+				9E4B81482A4F247B004A7DCD /* EmmanuelOkawara */,
 			);
 			path = SwiftLessonsPlaylist;
 			sourceTree = "<group>";
@@ -530,17 +560,6 @@
 				9ECBA36C298ADC7600D2159A /* Generics.swift */,
 			);
 			path = iOS14Generics;
-			sourceTree = "<group>";
-		};
-		9ECE55982A13BA17007769B4 /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				9EB6AFB62987163800E882A2 /* SceneDelegate.swift */,
-				9EB6AFB82987163800E882A2 /* ViewController.swift */,
-				9EB6AFBA2987163800E882A2 /* Main.storyboard */,
-				9EB6AFBF2987163900E882A2 /* LaunchScreen.storyboard */,
-			);
-			path = Files;
 			sourceTree = "<group>";
 		};
 		9ECE55992A13BA7A007769B4 /* iOS30UnitTesting */ = {
@@ -816,6 +835,7 @@
 				9E2934A729C688E5008BE03C /* Note+CoreDataProperties.swift in Sources */,
 				9E51F2E9298C85DF00AB0895 /* ConcurrencyViewController.swift in Sources */,
 				9ECE55D02A13DF3A007769B4 /* MVCUser.swift in Sources */,
+				9E4B814C2A4F256C004A7DCD /* Caching.swift in Sources */,
 				9EB3846F29C4DC620047871C /* User.swift in Sources */,
 				9EB6AFB52987163800E882A2 /* AppDelegate.swift in Sources */,
 				9E4AA3552987610A00A97619 /* BulbSwitchViewController.swift in Sources */,

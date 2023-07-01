@@ -39,7 +39,6 @@ class ConcurrencyViewController: UIViewController {
 
         print("End")
     }
-    
 
     @IBAction func greenPressed(_ sender: UIButton) {
         let queue = DispatchQueue(label: "downloadimage")
@@ -51,7 +50,6 @@ class ConcurrencyViewController: UIViewController {
             }
         }
     }
-    
     
     @IBAction func redPressed(_ sender: UIButton) {
         view.backgroundColor = .red

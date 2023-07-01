@@ -10,13 +10,6 @@ import UIKit
 class ThirdObserverViewController: UIViewController {
 
     @IBOutlet weak var nameField: UITextField!
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
     @IBAction func saveButtonClicked(_ sender: UIButton) {
         NotificationCenter.default.post(name: .myNotification, object: nil, userInfo: ["name": nameField.text ?? ""])

@@ -9,6 +9,7 @@ import Foundation
 
 final class MVVMHomeViewModel {
     
+//    @Published var welcomeMessage: String?
     var welcomeMessage: MVVMObservableObject<String?> = MVVMObservableObject(nil)
     
     func getLoggedInUser() {

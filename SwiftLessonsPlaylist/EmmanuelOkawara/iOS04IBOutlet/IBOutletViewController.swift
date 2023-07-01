@@ -10,11 +10,8 @@ import UIKit
 class IBOutletViewController: UIViewController {
 
     @IBOutlet weak var toggleSwitch: UISwitch!
-    
     @IBOutlet weak var headerLabel: UILabel!
-    
     @IBOutlet weak var nameField: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
